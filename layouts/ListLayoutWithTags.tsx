@@ -119,7 +119,7 @@ export default function ListLayoutWithTags({
               </ul>
             </div>
           </div>
-          <div>
+          <div className="w-full">
             <ul>
               {displayPosts.map((post) => {
                 const { path, date, title, summary, tags } = post
@@ -138,7 +138,7 @@ export default function ListLayoutWithTags({
                           {post.images ? (
                             <img
                               src={post?.images?.[0]}
-                              className="my-2 h-full max-h-56 w-full rounded-md object-cover"
+                              className="my-2 h-full max-h-64 w-full rounded-md object-cover"
                               alt="topimg"
                             />
                           ) : null}
