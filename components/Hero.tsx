@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import SVGImage from './laptop-guy'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -26,8 +28,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="order-1 flex h-auto w-full items-center justify-center overflow-hidden md:order-2 lg:h-96">
-            <SVGImage />
-            {/* <Image
+            {/* <SVGImage /> */}
+            <Image
               src={require('../public/static/images/profile.jpeg')}
               width={310}
               height={310}
@@ -35,7 +37,7 @@ const Hero = () => {
               alt="profile image"
               placeholder="blur"
               priority={true}
-            /> */}
+            />
           </div>
         </div>
       </>
