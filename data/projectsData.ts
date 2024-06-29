@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'MERN Stack Posts App',
+    description: `Developed a MERN Stacks posts app, where the users will need to authenticate (login/register) to post, edit it or even delete, similar to Twitter/X, with the ability to like, unlike and comment on that post (comment is write only and cannot be deleted or edited). Alongwith this, there is also a forgot password functionality built with the login form.`,
+    // imgSrc: '/static/images/time-machine.jpg',
+    href: 'https://github.com/Pancham555/banao-mern-task-2.git',
+  },
+  {
     title: 'Strapi E-commerce (Backend)',
     description: `Developed an e-commerce backend with strapi, integrated razorpay for payments, made a custom search plugin in strapi, and hosted the service on render.com.`,
     // imgSrc: '/static/images/time-machine.jpg',
