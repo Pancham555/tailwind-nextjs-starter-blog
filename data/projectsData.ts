@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Fullstack accounting app for small manufactuerers/retailers/wholesalers',
+    description: `Developed a Fullstack application with Next.js, prisma, tailwindcss, shadcn to build an accounting software. Follow the tutorial on how to use it by clicking on learn more and search for *How to use this software* on that page.`,
+    // imgSrc: '/static/images/time-machine.jpg',
+    href: 'blog/my-new-project#how-to-use-this-software',
+  },
+  {
     title: 'MERN Stack Posts App',
     description: `Developed a MERN Stacks posts app, where the users will need to authenticate (login/register) to post, edit it or even delete, similar to Twitter/X, with the ability to like, unlike and comment on that post (comment is write only and cannot be deleted or edited). Alongwith this, there is also a forgot password functionality built with the login form.`,
     // imgSrc: '/static/images/time-machine.jpg',
