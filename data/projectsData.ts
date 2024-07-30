@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'AI Chatbot web app',
+    description: `Developed an AI chatbot with Next.js, tailwindcss, shadcn and langchain to build an AI chatbot with the help of GROQ AI. It can be fine-tuned with the help of several buttons given in the dashboard, to get the desired output from the chatbot.`,
+    // imgSrc: '/static/images/time-machine.jpg',
+    href: 'https://gpt.zenithstech.com/playground',
+  },
+  {
     title: 'Fullstack accounting app for small manufactuerers/retailers/wholesalers',
     description: `Developed a Fullstack application with Next.js, prisma, tailwindcss, shadcn to build an accounting software. Follow the tutorial on how to use it by clicking on learn more and search for *How to use this software* on that page.`,
     // imgSrc: '/static/images/time-machine.jpg',
